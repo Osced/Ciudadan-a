@@ -1,0 +1,64 @@
+
+.validatorIcon{
+	display:none;
+	width: 23px;
+	height: 23px;
+	margin: 24px 4px 0 0;
+	float:left;
+}
+.wrong{
+	background-image: url("../../img/utilidades/wrong.png");
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.check{
+	background-image: url("../../img/utilidades/check.png");
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.validatorIcon .tooltiptext {
+	visibility: hidden;
+	width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+	line-height: 13px;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+	margin: -30px 0px 0px -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.validatorIcon .tooltiptext::after {
+	  content: "";
+	  position: absolute;
+	  top: 100%;
+	  left: 50%;
+	  margin-left: -5px;
+	  border-width: 5px;
+	  border-style: solid;
+	  border-color: #555 transparent transparent transparent;
+}
+.validatorIcon:hover{
+	cursor:pointer;
+}
+.validatorIcon:hover .tooltiptext  {
+  visibility: visible;
+  opacity: 1;
+}
+.validatorIcon:active .tooltiptext  {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 601px) {
+}
+@media screen and (max-width: 400px) {
+
+}

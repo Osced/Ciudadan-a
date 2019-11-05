@@ -1,0 +1,151 @@
+
+
+#top-bar{
+	height:50px;
+	background-color: #c7fbf0;
+	font-family: mainFont-Bold;
+	color: gray;
+}
+
+.fix_top-bar{
+	margin: 0 0px 0 70px;
+}
+#logo_top img{
+	width:100px;
+	height:40px;
+	margin: 5px 0;
+	float:left;
+	cursor: pointer;
+	
+}
+#Menu{
+	float:right;
+	margin: 15px 0px 0 0;
+}
+#mainMenu{
+	display: none;
+	float: none;
+}
+.menu_item{
+	font-family: mainFont-Bold;
+	font-size:15px;
+	text-decoration: none;
+	float:left;
+	margin: 0px 10px;
+	cursor: pointer;
+
+}
+.selected_menu{
+	margin: -1px 0 0 0;
+	padding: 0px 5px 1px 5px;
+	color: #2ec3a5;
+	border-radius: 20px;
+	border:2px solid #2ec3a5;
+
+}
+#btn_menu{
+	margin: 10px;
+	font-size: x-large;
+	cursor: pointer;
+}
+
+.btn_sideMenu{
+	width: 30px;
+	height: 30px;
+	margin: 10px -35px 0 20px;
+	float: left;
+	cursor: pointer;
+	color: #2ec3a5;
+	font-size: 25px;
+	text-align: center;
+
+}
+.btn_sideMenu:hover{
+	height: 35px;
+	font-size: 30px;
+	margin: 5px -35px 0 20px;
+}
+
+.btn_sideMenu hr{
+	border-top: 3px solid #2ec3a5;
+	width: 80%;
+	margin: 10px auto -3px auto;
+}
+.btn_sideMenu:hover hr{
+	   margin: 11px auto 14px auto;
+}
+.side_menu {
+	position: absolute;
+	top: 51px;
+	width: 100%;
+	padding: 0px 0 0px 0px;
+	background: #2ec3a5;
+	color: #737373;	
+}
+.side_menu hr{
+	margin: 1px 0; 
+}
+ .side_button{
+	display: inline-block;
+	width: 100%;
+	margin: 0px 0 -7px 0;
+	padding: 8px 16px;
+	overflow: hidden;
+	text-decoration: none;
+	color: #2ec3a5;
+	background-color: #c7fbf0;
+	font-weight: bold;
+	cursor: pointer;
+
+ }
+ .side_button:hover {
+	color: white;
+	background-color: #f9790d;
+ }
+ 
+
+
+@media screen and (min-width: 601px) {
+	#logo_top img{
+		margin: 5px 0 0 100px;
+	}
+
+}
+@media screen and (max-width: 601px) {
+	#div_buscar{
+	display: none;
+	}
+}
+@media screen and (min-width: 416px) {
+	#sideMenu{
+		display: none !important;
+	}
+	.btn_sideMenu{
+		display: none !important;
+	}
+}
+@media screen and (max-width: 416px) {
+	#logo_top {
+		width: 110px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	#logo_top img {
+		margin: 10px 0 5px 0;
+		float: none;
+	}
+	.menu_item {
+	    display: none;
+	}
+}
+@media screen and (max-width: 400px) {
+
+	.menu_item {
+	    font-size: 13px;
+	    margin: 0px 7px;
+
+	}
+}
+
+
+

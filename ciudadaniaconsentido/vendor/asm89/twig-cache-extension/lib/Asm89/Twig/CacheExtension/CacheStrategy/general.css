@@ -1,0 +1,94 @@
+/* 
+    Document   : home
+    Created on : 6/10/2011, 01:39:32 PM
+    Author     : Marcos
+    Description:
+        Definición de estilos para el home
+*/
+:root {
+  --pallet-1-color: #94d1be;
+  --pallet-2-color: #f9790d;
+  --main-txt-color: gray;
+  --light-txt-color: #a8a8a8;
+}
+
+.black_text{
+	color: black;
+}
+.bold_font{
+	font-weight: bold;
+}
+
+@font-face {
+  font-family: mainFont;
+  src: url("../font/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: mainFont-BLack;
+  src: url("../font/Roboto/Roboto-Black.ttf");
+}
+@font-face {
+  font-family: mainFont-Bold;
+  src: url("../font/Roboto/Roboto-Bold.ttf");
+}
+
+body {
+	font-family: mainFont;
+}
+.float_left{
+	float:left;
+}
+.float_right{
+	float:right;
+}
+a.link9px {
+	font-size: 9px;
+	color: white;
+	text-decoration: none;
+}
+a.link9px:hover {
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+}
+#contenido {
+	height:100%;
+	width: 100%;
+}
+.blur{
+	 filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+.btn:hover {
+	cursor: pointer;
+}
+.btn .btn_disable{
+	background-color: #fbb983;
+}
+
+ .center {
+    margin: 0px auto;
+	text-align: center;
+	width: 53%;	
+}
+.hide{
+	display: none;
+}
+.row{
+	width: 100% !important;
+}
+.col{
+	float:left;
+	width:100%;
+}
+
+@media screen and (max-width: 601px) {
+
+}
+@media screen and (max-width: 400px) {
+}
+
+
+

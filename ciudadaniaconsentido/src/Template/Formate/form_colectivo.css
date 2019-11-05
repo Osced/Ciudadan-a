@@ -1,0 +1,145 @@
+
+
+.div_usuariosColectivo{
+	clear: left;
+	width: 80%;
+	padding: 25px 0 0 0;
+	margin: 0 auto;
+	color: gray;
+    text-align: center;
+
+}
+.correoInvitar{
+	margin-bottom: 10px;
+}
+.icon_invitar{
+	height:20px;
+	width: 25px;
+	margin: 0px 10px 0px 0px;
+	background-image: url("../../../img/icons/vincularpersonas.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+}
+.div_invitadosColectivo{
+    height: 180px;
+}
+.div_invitadosColectivo hr{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+}
+.div_invitado{
+    text-align: center;
+    float: left;
+    border: solid 2px var(--pallet-1-color);
+	border-radius: 15px;
+	margin: 10px 5px;
+	padding: 0 5px;
+	color:  var(--pallet-1-color);
+}
+.btn_eliminar{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin: 1px 0px 1px 8px;
+
+	background-image: url("../../../img/utilidades/close.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	cursor: pointer;
+}
+.btn_promover{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin: 1px -5px 1px 8px;
+
+	background-image: url("../../../img/icons/up.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	cursor: pointer;
+}
+.btn_degradar{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin: 1px -5px 1px 8px;
+
+	background-image: url("../../../img/icons/down.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	cursor: pointer;
+}
+.div_Miembros{
+    clear: left;
+    height: 180px;
+    padding: 25px 0 0 0;
+    color: gray;
+}
+.div_Miembros hr{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+}
+.btn_invitar_Colectivo{
+	margin: 0 45px 0 auto;
+}
+
+.descripcionColectivo{
+	height: 260px;
+	margin: 5px auto;
+	border:solid 1px lightgray;
+	background-color: white;
+	color: #a8a8a8;;
+
+}
+.colectivo_container .Form_btnAjust {
+	    z-index: 1;
+	}
+
+.colectivo_container textarea {
+   resize: none;
+}
+.div_invitado{
+
+}
+.invitado_nombre{
+    float: left;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+}
+@media screen and (min-width: 415px) {
+	.colectivo_container .Form_btnAjust {
+		position: absolute;
+		left: 50%;
+		bottom: 25px;
+		transform: translate(-50%, 0);
+	}
+
+	.btn_finalizarColectivo{
+		position: absolute !important;
+		bottom: 20px;
+		left: 50%;
+		transform: translate(-50%,0);
+	}
+}
+
+@media screen and (max-width: 415px) {
+.colectivo_container .form_data{
+
+	}
+
+	.colectivo_container .Form_btnAjust {
+	    bottom: 30px ;
+	}
+}
