@@ -1,0 +1,394 @@
+/*
+    Document   : home
+    Created on : 6/10/2011, 01:39:32 PM
+    Author     : Marcos
+    Description:
+        Definición de estilos para el home
+*/
+body {
+	font-family: mainFont;
+}
+a.link9px {
+	font-size: 9px;
+	color: white;
+	text-decoration: none;
+}
+a.link9px:hover {
+	text-decoration: underline;
+}
+
+#contenido {
+	height:100%;
+	width: 100%;
+}
+.blur{
+	 filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+.btn:hover {
+	cursor: pointer;
+}
+.form_close{
+	width: 25px;
+	height: 25px;
+
+	background-image: url("../../img/utilidades/close.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	cursor: pointer;
+}
+.form_close:hover{
+	transform: scale(1.1);
+}
+.logo img{
+	width: 100px;
+}
+.btn .btn_disable{
+	background-color: #fbb983;
+}
+.btn_back{
+	float: left;
+	transform: scale(4);
+	color: gray;
+	margin: -30px 0px 0 20px;
+	cursor: pointer;
+}
+.btn_back:hover{
+	transform: scale(4.2);
+}
+
+.form_container{
+	display: block;
+	width:414px;
+	height: 650px;
+	max-width: 414px;
+	margin: 0px auto;
+	padding: 18px 0px;
+	border-radius: 20px;
+	position: relative;
+	background: white;
+	font-family: mainFont;
+}
+.form_container h5{
+	color: gray;
+	line-height: 10px;
+	font-family: mainFont;
+}
+.form_container h6{
+	color: gray;
+	line-height: 10px;
+	vertical-align: bottom;
+	font-size: 15px;
+	font-family: mainFont;
+}
+.form_container a{
+	cursor:pointer;
+	text-decoration: none;
+	font-weight: bold;
+}
+.form_slide{
+	height: 80%;
+}
+.form_data{
+	height: 100%;
+}
+.input_container {
+	width: 100%;
+}
+.btn_container{
+	margin: 50px 0px 0px 0px;
+	clear:left;
+}
+.form_label{
+	width: 80%;
+	margin: 0 auto;
+	text-align: left;
+	color: gray;
+}
+.form_input{
+	margin: 2px auto;
+	padding: 5px 20px;
+	border-radius: 14px;
+	border:2px solid #ededed;
+	width: 80%;
+	height: 30px;
+	color: var(--light-txt-color);
+	font-size:14px;
+	font-weight: bold;
+}
+.form_input:hover{
+	border:2px solid gray;
+}
+.form_btn{
+	background-color: #f9790d;
+	border-radius: 11px;
+	cursor: pointer;
+	margin: 5px auto;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	padding: 2px 0px;
+	height: 28px;
+	width: 150px;
+	clear: left;
+
+}
+.float_input{
+	font-size:12px;
+	float:left;
+	padding: 1px 0px 0px 20px;
+    margin: 20px -30px 0px 40px;
+}
+.div_field{
+	width: 80%;
+	margin: 0 auto;
+}
+.input_select{
+	margin: 5px 0px !important;
+	border: 2px solid #ededed !important;
+    border-radius: 14px !important;
+	font-family: mainFont !important;
+	color: lightgray !important;
+	width: 80% !important;
+	height: 30px !important;
+}
+.form_select{
+	margin: 5px 0px !important;
+	border: 2px solid #ededed !important;
+    border-radius: 14px !important;
+	font-family: mainFont !important;
+	color: gray !important;
+	width: 80% !important;
+	height: 30px !important;
+}
+
+#icon_imagenPortada{
+	height:20px;
+	width: 25px;
+	margin: 0px 10px 0px 0px;
+	background-image: url("../../img/icons/elegirimagendeportada.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	cursor: pointer;
+}
+.btn_icon{
+	width: 80%;
+	margin: 10px auto;
+	font-family: mainFont;
+	text-align: left;
+	color: gray;
+}
+.btn_circle{
+
+}
+.btn_labbel{
+	float: left;
+	font-weight: bold;
+}
+.btn_crear{
+	width: 25px;
+	height: 25px;
+	margin: 0 5px 5px 0;
+	background-image: url("../../img/icons/crear.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	cursor: pointer;
+}
+.btn_crear:hover{
+    width: 27px;
+    height: 27px;
+    margin-top: -2px;
+}
+.btn_buscar {
+	width: 30px;
+	height: 29px;
+	margin: 0 5px 5px 0;
+	background-image: url("../../img/icons/buscar.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	cursor: pointer;
+}
+
+.div_btnCrear{
+
+}
+
+.select-css {
+	font-family: mainFont;
+	color: gray;
+    line-height: 1.3;
+    padding: 0 0 0 5px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #686868;;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: 8px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+
+}
+.select-css::-ms-expand {
+    display: none;
+}
+.select-css:hover {
+    border-color: #888;
+}
+.select-css:focus {
+
+}
+.select-css option {
+    font-weight:normal;
+}
+
+select.minimal {
+  background-image:
+  		linear-gradient(135deg, gray 50%, transparent 50%),
+  		linear-gradient(45deg, transparent 50%, gray 50%),
+  		linear-gradient(225deg, transparent 50%, gray 50%),
+  		linear-gradient(315deg, gray 50%, transparent 50%);
+  background-position:
+ 	calc(100% - 6px)  calc(50% + 4px),
+ 	calc(100% - 9px) calc(50% + 4px),
+    calc(100% - 6px)  calc(50% - 3px),
+ 	calc(100% - 9px) calc(50% - 3px);
+  background-size:
+    5px 5px,
+    5px 5px,
+     5px 5px,
+    5px 5px;
+  background-repeat: no-repeat;
+}
+
+.checkContainer{
+	float: left;
+	width: 33%;
+	padding: 5px;
+	}
+.checkContainer input[type="checkbox"]{
+    opacity:0;
+    height: 80px;
+    width: 100px;
+    position: absolute;
+    z-index: 2;
+}
+.radioContainer{
+
+}
+.radioContainer input{
+	display: none;
+	margin: 0px 10px 0 0px;
+	color: gray;
+	cursor: pointer;
+}
+.circle{
+	width: 12px;
+	height: 12px;
+	margin: 0px 2px -1px 0px;
+	border: 1px solid lightgray;
+	border-radius: 50%;
+	display: inline-block;
+}
+.circle:hover{
+	background-color: gray;
+}
+.radio_checkbox input:checked + .circle{
+	background-color: gray;
+}
+
+.circle_loader{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+
+}
+@media screen and (min-width: 415px) {
+	.logo img{
+		margin: 0px auto 10px auto;
+	}
+	.form_input input {
+		width:80%;
+	}
+	.form_close{
+		margin: 0px 20px 0px auto;
+	}
+	.Form_btnAjust{
+		margin: 40px auto 0 auto;
+	}
+}
+@media screen and (max-width: 415px) {
+
+	.form_container{
+		height: 100%;
+		width: 100%;
+		border-radius: 0px;
+	}
+	.form_container h6{
+		font-size: 17px;
+	}
+	.form_container h6{
+		font-size: 14px;
+	}
+	.form_slide {
+    	height: 85%;
+	}
+	.btn_back{
+		margin: -10px 0px 0 15px;
+	}
+	.form_close{
+		position: absolute;
+		right: 20px;
+		top: 11px;
+	}
+	.Form_btnAjust{
+		position: absolute;
+		bottom: 70px;
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+	#form_footer{
+		position: absolute;
+		bottom: 20px;
+		left: 50%;
+		transform: translate(-50%, 0);
+		width: 100%;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 415px) and (max-height: 567px) {
+	.app_footer{
+		display: none;
+	}
+}
+
+
+
+[class^='select2'] {
+  border-radius: 15px !important;
+  border-width: 2px !important;
+  border-color: #ededed !important;
+  color: #a8a8a8	!important;
+  font-size: 12px !important;
+}
+.select2-selection select2-selection--multiple{
+	border-radius: 15px;
+}
+.select2-search__field {
+	 width: 100% !important;
+	 padding: 0 10px !important;
+	 font-weight: bold !important;
+	}

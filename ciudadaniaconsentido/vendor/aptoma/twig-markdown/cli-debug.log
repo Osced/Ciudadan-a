@@ -1,0 +1,69 @@
+2019-03-10 04:18:25 Notice: Notice (8): Undefined index: PaisNacimientos in [C:\WebApps\ciudadaniaconsentido\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 243]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 243
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 675
+__TwigTemplate_c024cd63b2fb3dd8aaab1baca15dec80f09c6b06eb35c9d49c5eaff1a9f94b59::doDisplay() - ROOT\tmp\cache\twigView\24\247344809191c85ba1060a92275311c73cd968673be2d019395be7e2c90cb4fa.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 428
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 399
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 407
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 91
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 1014
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 115
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 101
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 532
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 525
+Cake\Console\CommandRunner::runShell() - CORE\src\Console\CommandRunner.php, line 371
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 166
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-03-10 16:08:03 Notice: Notice (8): Undefined index: PaisNacimientos in [C:\WebApps\ciudadaniaconsentido\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 243]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 243
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 675
+__TwigTemplate_c024cd63b2fb3dd8aaab1baca15dec80f09c6b06eb35c9d49c5eaff1a9f94b59::doDisplay() - ROOT\tmp\cache\twigView\24\247344809191c85ba1060a92275311c73cd968673be2d019395be7e2c90cb4fa.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 428
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 399
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 407
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 91
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 1014
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 115
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 101
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 532
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 525
+Cake\Console\CommandRunner::runShell() - CORE\src\Console\CommandRunner.php, line 371
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 166
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2019-03-10 16:08:03 Notice: Notice (8): Undefined index: Pais in [C:\WebApps\ciudadaniaconsentido\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 243]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT\vendor\cakephp\bake\src\View\Helper\DocBlockHelper.php, line 243
+Twig_Template::getAttribute() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 675
+__TwigTemplate_c024cd63b2fb3dd8aaab1baca15dec80f09c6b06eb35c9d49c5eaff1a9f94b59::doDisplay() - ROOT\tmp\cache\twigView\24\247344809191c85ba1060a92275311c73cd968673be2d019395be7e2c90cb4fa.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 428
+Twig_Template::display() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 399
+Twig_Template::render() - ROOT\vendor\twig\twig\lib\Twig\Template.php, line 407
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 91
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 1014
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 115
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 101
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 532
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 525
+Cake\Console\CommandRunner::runShell() - CORE\src\Console\CommandRunner.php, line 371
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 166
+[main] - ROOT\bin\cake.php, line 12
+
+
+

@@ -1,0 +1,40 @@
+
+
+.slide_dot{
+	font-size:50px;
+	color: lightgray;
+	margin: 0 -3px 0 -2px;
+	cursor: default;
+}
+
+#slide_states{
+	text-align: center;
+	clear: left;
+}
+
+#slide_states .selected{
+	color: gray;
+}
+
+
+
+
+
+@media screen and (min-width: 415px) {
+
+	#slide_states{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+	bottom: 35px;
+	width: 100px;
+	}
+}
+@media screen and (max-width: 415px) {
+	#slide_states {
+    	position: absolute;
+    	width: 30%;
+    	left: 35%;
+    	bottom: 85px;
+	}
+}
