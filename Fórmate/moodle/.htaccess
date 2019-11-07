@@ -1,0 +1,10 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+	
+	# Redirect /moodle folder to https
+    RewriteCond %{HTTPS} !=on
+    RewriteCond %{REQUEST_URI} moodle
+    RewriteRule ^(.*) https://%{SERVER_NAME}$1 [R,L]
+</IfModule>
